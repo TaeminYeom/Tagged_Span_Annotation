@@ -14,7 +14,7 @@ fi
 # Create a tsv format file for wmt24_esa file from wmt24_esa.jsonl
 WMT24_ESA_JSONL=wmt24_esa.jsonl
 if [ ! -f $WMT24_ESA_JSONL ]; then
-    wget https://github.com/wmt-conference/wmt24-news-systems/raw/refs/heads/main/jsonl/wmt24_esa.jsonl
+    wget https://github.com/wmt-conference/wmt24-news-systems/raw/b51a13a80668c53b7874afa3d74f48ebad4fe6d1/jsonl/wmt24_esa.jsonl
 fi
 
 WMT24_DATA_DIR=data
