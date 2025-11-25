@@ -2,6 +2,15 @@
 
 This repository contains reference code to try the **Tagged Span Annotation (TSA)** method for span-level MT error detection and to compare it against alternative prompting styles.
 
+## Paper
+
+**Tagged Span Annotation for Detecting Translation Errors in Reasoning LLMs**
+
+- **Venue:** WMT 2025 (Proceedings of the Tenth Conference on Machine Translation)
+- **Paper:** https://aclanthology.org/2025.wmt-1.62/
+
+This repository is an implementation of the Tagged Span Annotation scheme presented in the above paper. The method focuses on span-level error detection in machine translation using reasoning LLMs like OpenAI's o3, with emphasis on response format design to better extract span-level information.
+
 ## 1. Dataset Preparation
 
 ```bash
